@@ -14,7 +14,8 @@
       "info-card#button-left",
       "flex-layout.row",
       "slider-layout#home",
-      "tab-layout#home"
+      "tab-layout#home",
+      "modal-trigger#first"
     ]
   },
 
@@ -26,7 +27,8 @@
       "info-card#button-left",
       "flex-layout.row",
       "slider-layout#home",
-      "tab-layout#home"
+      "tab-layout#home",
+      "modal-trigger#first"
     ]
   },
 
@@ -178,6 +180,23 @@
       "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
       "textPosition": "CENTER",
       "font": "t-heading-3"
+    }
+  },
+
+  "modal-trigger#first": {
+    "children": ["rich-text#trigger", "modal-layout#first"]
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "CLICK ME"
+    }
+  },
+  "modal-layout#first": {
+    "children": ["rich-text#hello"]
+  },
+  "rich-text#hello": {
+    "props": {
+      "text": "Hello"
     }
   }
 }
