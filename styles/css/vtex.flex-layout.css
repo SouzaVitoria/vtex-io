@@ -1,0 +1,7 @@
+.flexRowContent--search-content .stretchChildrenWidth:first-child {
+  width: 20% !important;
+}
+
+.flexRowContent--search-content .stretchChildrenWidth:last-child {
+  width: 80% !important;
+}
